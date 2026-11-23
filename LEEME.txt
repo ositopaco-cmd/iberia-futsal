@@ -1,0 +1,17 @@
+IBERIA TOSCAL - APLICACIÓN INSTALABLE (PWA)
+
+CONTENIDO: index.html, manifest.webmanifest, sw.js y dos iconos PNG.
+
+PUBLICAR GRATIS EN GITHUB PAGES:
+1. En github.com, inicia sesión y crea un repositorio nuevo (por ejemplo, iberia-futsal). Puedes elegir repositorio privado, pero comprueba que tu plan admite Pages desde repositorios privados; lo más sencillo es uno público.
+2. Sube los cinco archivos contenidos en este ZIP (extraídos), directamente a la raíz del repositorio. No subas solo el ZIP.
+3. En Settings > Pages > Build and deployment, selecciona Deploy from a branch, branch main y carpeta /(root), y guarda.
+4. Abre la URL https://TU_USUARIO.github.io/iberia-futsal/ en Chrome del móvil.
+5. Menú de Chrome (tres puntos) > Instalar aplicación / Añadir a pantalla de inicio.
+6. Abre la app una primera vez con conexión para que pueda funcionar luego sin internet.
+
+ADVERTENCIAS:
+- Los partidos y la plantilla se almacenan en el navegador del dispositivo (localStorage): NO se sincronizan ni se respaldan en la nube.
+- El almacenamiento de una URL nueva es diferente del de un archivo local anterior. Si ya tienes estadísticas en el HTML abierto desde Descargas, NO se transferirán automáticamente.
+- Borrar datos de navegación, desinstalar o cambiar de móvil puede hacer perder la información.
+- Publicar el código en un repositorio público lo hace visible, pero NO publica automáticamente las estadísticas que se guardan localmente en el móvil.
